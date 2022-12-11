@@ -10,9 +10,7 @@ interface Todo {
 class Todos {
 
     todos: Todo [] = [
-        {id: 1, completed: false, title: 'very big task TSTSTSTSTSTSTSTS'},
-        {id: 2, completed: false, title: 'very big task JSJSSJSJSJSJSJSJ'},
-        {id: 3, completed: false, title: 'very big task MOBXMOBXMOBXMOBX'},
+
     ]
 
     newTodo: string = '';
