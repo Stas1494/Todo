@@ -1,0 +1,35 @@
+.todo {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+
+  background-color: #fff;
+  margin: 10px 0;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: none;
+  color: #244075;
+
+  &__checkbox {
+    flex: 0 0 30px;
+    height: 30px;
+  }
+
+  &__title {
+    //word-break: break-all;
+  }
+
+  &__btn {
+
+    margin-left: auto;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 7px 12px;
+    background-color: #ff5252;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
