@@ -9,9 +9,7 @@ interface Todo {
 
 class Todos {
 
-    todos: Todo [] = [
-
-    ]
+    todos: Todo [] = []
 
     newTodo: string = '';
 
